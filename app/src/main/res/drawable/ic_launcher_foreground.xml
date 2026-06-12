@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle Camera Shadow drop -->
+    <path
+        android:pathData="M31,43 L77,43 A4,4 0,0,1 81,47 V75 A4,4 0,0,1 77,79 H31 A4,4 0,0,1 27,75 V47 A4,4 0,0,1 31,43 Z"
+        android:fillColor="#22000000"/>
+
+    <!-- Camera Body Chassis (Metallic Dark Slate) -->
+    <path
+        android:pathData="M30,40 H78 A4,4 0,0,1 82,44 V72 A4,4 0,0,1 78,76 H30 A4,4 0,0,1 26,72 V44 A4,4 0,0,1 30,40 Z"
+        android:fillColor="#263238"/>
+
+    <!-- Camera Top Viewfinder Flash Prism Hump -->
+    <path
+        android:pathData="M44,40 L48,33 H60 L64,40 Z"
+        android:fillColor="#212121"/>
+
+    <!-- Red Shutter Release Knob -->
+    <path
+        android:pathData="M32,40 L32,36 H38 L38,40 Z"
+        android:fillColor="#D50000"/>
+
+    <!-- Professional Lens Outer Steel Ring -->
+    <path
+        android:pathData="M54,58 m-20,0 a20,20 0,1,1 40,0 a20,20 0,1,1 -40,0"
+        android:fillColor="#37474F"
+        android:strokeWidth="2.5"
+        android:strokeColor="#CFD8DC"/>
+
+    <!-- Lens Glas Face (Dark Obsidian) -->
+    <path
+        android:pathData="M54,58 m-15,0 a15,15 0,1,1 30,0 a15,15 0,1,1 -30,0"
+        android:fillColor="#102027"/>
+
+    <!-- Dynamic Cyan/Emerald Shutter Aperture Iris (Wide Colorful HDR Core) -->
+    <path
+        android:pathData="M54,58 m-10,0 a10,10 0,1,1 20,0 a10,10 0,1,1 -20,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="48"
+                android:endX="64"
+                android:endY="68"
+                android:type="linear">
+                <item
+                    android:color="#00E5FF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#1D976C"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glossy reflection star highlight (Emphasizes pristine lens element glass) -->
+    <path
+        android:pathData="M50,54 L51,52 L53,52 L51,54 L51,56 L50,54 Z"
+        android:fillColor="#FFFFFF"/>
+    <path
+        android:pathData="M48,49 A2,2 0,1,1 47.9,49 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.8"/>
+</vector>

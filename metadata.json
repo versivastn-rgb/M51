@@ -1,0 +1,6 @@
+{
+  "name": "M51 HDR Camera",
+  "description": "Premium tunable Galaxy M51 camera simulation with 64MP Wide, 12MP Ultra-wide, 5MP Macro, 5MP Depth, 32MP Front lens, rich custom HDR and colorful tone tuning panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
